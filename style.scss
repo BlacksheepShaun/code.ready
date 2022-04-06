@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    body{
+        background: #006466;
+    }
+}
+
+.logo-page {
+    height: 100vh;
+
+    background: linear-gradient(135deg, #006466,#4D194D);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    &__title {
+        font-family: 'Rubik Glitch', cursive;
+        text-align: center;
+        text-shadow: .025em 0 .015em rgba(229, 255, 0, 0.397),
+        -.025em 0 .015em rgba(0, 255, 157, 0.397),
+        0 .05em .015em rgba(255, 0, 0, 0.397);
+        
+    }
+        &__title-big{
+            font-size: 5em;
+
+        }
+        &__title-small{
+            font-size: 3em;
+        }
+    
+    &__image {
+        height: 40%;
+    }
+}
